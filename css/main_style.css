@@ -1,7 +1,7 @@
 body{
     background: #7FB3D5;
     padding-top: 40px;
-    color: #566573;
+    color: #EBF5FB;
   }
   
   html, body {
@@ -45,7 +45,7 @@ body{
 
 
 .top-rounded-panel h1{
-	color: #ff3500;
+	color: #ff3500; 
 	font-weight: 300;
 	padding-top: 100px;
 }
@@ -57,6 +57,5 @@ body{
 	border-bottom-width: 0px;
 	border-right-style: solid;
 	border-right-width: 0px;
-	padding-top: 200px;
 	margin-bottom:20px;
 }
