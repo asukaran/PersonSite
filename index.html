@@ -18,7 +18,7 @@
 <body>
        <header id="header">
 	       <nav class="navbar">
-		       <div class="container" style="background-color:#FADBD8;">
+		       <div class="container">
 			       <div id="title">
 				       <h1>Josie Huang</h1>
 			       </div>
@@ -47,7 +47,7 @@
 		     </style>
                      <table class="table" bgcolor="#FFFFFF">
                            <thead>
-                                 <tr>
+                                 <tr style="background-color: #dddddd;">
                                        <th><a style="cursor: pointer;">Degree</a></th>
                                        <th><a style="cursor: pointer;">Year</a></th>
                                        <th><a style="cursor: pointer;">University</a></th>
@@ -55,14 +55,25 @@
                                  </tr>
                            </thead>
                            <tbody>
-                                 {% for role in site.roles %}
-                                       <tr>
-                                             <td>{{role.degree}}</td>
-                                             <td>{{role.year}}</td>
-                                             <td>{{role.university}}</td>
-                                             <td>{{role.research}}</td>
-                                      </tr>
-                                {% endfor %}
+					<tr>
+                                             	<td>PhD candidate in Clinical Psychology</td>
+                                             	<td>2017-present</td>
+                                             	<td>The Penn State University</td>
+                                             	<td>Contextual influences on reward processing in addiction. </td>
+					</tr>
+					<tr>
+						<td>M.A. (Psychology)</td>
+						<td>2014-2017</td>
+						<td>San Diego State University</td>
+						<td>Neural correlates of cognitive and affective functions in binge drinkers.</td>
+				        </tr>
+				        <tr>
+						<td>B.S. (Psychology)</td>
+						<td>2008-2012</td>
+						<td>Peking University</td>
+						<td>The modulating effects of group membership on empathic neural responses.</td>
+				        </tr>
+					
                           </tbody>
                     </table>
              </div>
