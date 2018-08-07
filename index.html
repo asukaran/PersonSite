@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Josie Huang's Personal Website</title>
-    <body bgcolor = "F1948A">
+    <body bgcolor = "#EBF5FB">
         
     <!-- Core Stylesheet -->
     <link rel="stylesheet" type="text/css" href="./css/main_style.css">
@@ -17,54 +17,54 @@
 
 <body>
        <header id="header">
-        <nav class="navbar">
-                <div class="container" style="background-color:#F1948A">
-                        <div id="title">
-                                <h1>Josie Huang</h1>
-                        </div>
+	       <nav class="navbar">
+		       <div class="container" style="background-color:#FADBD8;">
+			       <div id="title">
+				       <h1>Josie Huang</h1>
+			       </div>
         
-                        <div id="navbar">
-                                <ul>
-                                        <li><a href="/">Home</a></li>
-                                        <li><a href="/">CV</a></li>
-                                        <li><a href="http://wilsonlab.la.psu.edu">LabWebsite</a></li>
-                                </ul>
-                        </div>
-                </div>
-        </nav>
-</header>
+                        	<div id="navbar">
+                               		<ul>
+                                       		<li><a href="/">Home</a></li>
+                                       		<li><a href="/">CV</a></li>
+                                       		<li><a href="http://wilsonlab.la.psu.edu">LabWebsite</a></li>
+                               		</ul>
+                        	</div>
+               	 	</div>
+        	</nav>
+	</header>
 
 <div class="rounded_panel txt_lightgrey">
-      <div class="top-rounded-panel grey-bg">
-            <h1> Educational History </h1>
-      </div>
-      <div class="content-rounded-panel">
-            <div>
-                  <style>
-			tr:nth-child(even) {
-    			background-color: #dddddd;
-			}
-		  </style>
-                  <table class="table">
-                        <thead>
-                              <tr>
-                                    <th><a style="cursor: pointer;">Degree</a></th>
-                                    <th><a style="cursor: pointer;">Year</a></th>
-                                    <th><a style="cursor: pointer;">University</a></th>
-                                    <th><a tyle="cursor: pointer;">Research</a></th>
-                              </tr>
-                        </thead>
-                        <tbody>
-                              {% for role in site.roles %}
-                                    <tr>
-                                          <td>{{role.degree}}</td>
-                                          <td>{{role.year}}</td>
-                                          <td>{{role.university}}</td>
-                                          <td>{{role.research}}</td>
-                                    </tr>
-                              {% endfor %}
-                        </tbody>
-                  </table>
+	<div class="top-rounded-panel grey-bg">
+        	<h1> Educational History </h1>
+        </div>
+	<div class="content-rounded-panel">
+               <div>
+                     <style>
+			   tr:nth-child(even) {
+    			   background-color: #dddddd;
+			   }
+		     </style>
+                     <table class="table" bgcolor="#FFFFFF">
+                           <thead>
+                                 <tr>
+                                       <th><a style="cursor: pointer;">Degree</a></th>
+                                       <th><a style="cursor: pointer;">Year</a></th>
+                                       <th><a style="cursor: pointer;">University</a></th>
+                                       <th><a tyle="cursor: pointer;">Research</a></th>
+                                 </tr>
+                           </thead>
+                           <tbody>
+                                 {% for role in site.roles %}
+                                       <tr>
+                                             <td>{{role.degree}}</td>
+                                             <td>{{role.year}}</td>
+                                             <td>{{role.university}}</td>
+                                             <td>{{role.research}}</td>
+                                      </tr>
+                                {% endfor %}
+                          </tbody>
+                    </table>
              </div>
              <br>                      
       </div>
