@@ -1,3 +1,6 @@
+# Build settings
+markdown: kramdown
+
 # Educational history
 roles:
  - degree: PhD candidate in Clinical Psychology
