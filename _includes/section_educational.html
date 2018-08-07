@@ -1,0 +1,35 @@
+<div class="rounded_panel txt_lightgrey">
+      <div class="top-rounded-panel grey-bg">
+            <h1> Educational History </h1>
+      </div>
+      <div class="content-rounded-panel">
+            <div>
+                  <style>
+				                tr:nth-child(even) {
+    					          background-color: #dddddd;
+				                }
+			            </style>
+                  <table class="table">
+                        <thead>
+                              <tr>
+                                    <th><a style="cursor: pointer;">Degree</a></th>
+                                    <th><a style="cursor: pointer;">Year</a></th>
+                                    <th><a style="cursor: pointer;">University</a></th>
+                                    <th><a tyle="cursor: pointer;">Research</a></th>
+                              </tr>
+                        </thead>
+                        <tbody>
+                              {% for role in site.roles %}
+                                    <tr>
+                                          <td>{{role.degree}}</td>
+                                          <td>{{role.year}}</td>
+                                          <td>{{role.university}}</td>
+                                          <td>{{role.research}}</td>
+                                    </tr>
+                              {% endfor %}
+                        </tbody>
+                  </table>
+             </div>
+             <br>                      
+      </div>
+</div>
