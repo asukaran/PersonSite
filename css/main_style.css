@@ -30,15 +30,31 @@ body{
     position: relative;
 }
 
-.header ul {
-    margin-top: 0px;
+#header ul {
+    margin-top: 5px;
     padding-top: 5px;
     margin-left: 5px;
     padding-left: 5px;
 }
 
-.header ul li {
+#header ul,li {
     float: left;
     list-style-type: none;
     padding-right: 40px;
+}
+
+.top-rounded-panel h1{
+	color: #ff3500;
+	font-weight: 300;
+	padding-top: 15px;
+}
+
+.txt_lightgrey {
+	background-color:white;
+	border-color: #ABABAB;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	margin-bottom:20px;
 }
