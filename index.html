@@ -127,8 +127,9 @@
 
 <!---------------- Novel Project ------------------->
 <section id="NovelProject">	
-	<button class="top-rounded-panel txt_lightgrey">Novel Project: <i> The Seven Stars Palace </i> </button>
-		<div class="collapse-content">
+	<div class="rounded_panel txt_lightgrey">
+	<button class="collapsible">Novel Project: <i> The Seven Stars Palace </i> </button>
+		<div class="content">
 			<p>I am writing a book of a detective story occurring during the last years before the collaspe of <br/>
 			   Ming Dynasty in ancient China. This story is not only about schemes, deceits, and confrontations, <br/>
 			   but is more of a portray of the civilians and lower-class officials and their struggles, conflicts, <br/>
@@ -144,7 +145,25 @@
 			Still working on it...
 			</p>
 		</div>
-		
+	</div>
+	
+<!-------Collapse function ------>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+}
+</script>
+	
 </section>
 	
 <!---------------- footer ------------------->
