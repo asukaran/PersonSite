@@ -1,6 +1,6 @@
 body{
     /*background: #7FB3D5;  */
-    background: url('../img/firewor.jpg');
+    background: url('../img/firework.jpg');
     padding-top: 40px;
     color: #4D5656;   /* font color */
   }
@@ -73,7 +73,7 @@ body{
 }
 
 .rounded_panel {
-	padding-left: 30px;
+	padding-left: 10px;
 	padding-bottom:10px;
 	margin-bottom:10px;
 }
@@ -87,5 +87,5 @@ body{
 	border-right-width: 0px;
 	margin-bottom:20px;
 	margin-right: 300px;
-	/*margin-top: 100px;  */
+	margin-top: 50px;  
 }
