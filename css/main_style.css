@@ -1,6 +1,7 @@
 body{
     /*background: #7FB3D5;  */
-    background: url('../img/yumeji1.jpg');
+    background-image: url('../img/yumeji1.jpg');
+    background-repeat: no-repeat
     padding-top: 40px;
     color: #424949;   /* font color */
   }
@@ -119,10 +120,9 @@ th, td {
 	font-size: 23px;
 	cursor: pointer;
 	padding: 20px;
-	witdh: 65%;
+	witdh: 68%;
 	margin-top: 50px;
 	margin-left: 0;
-	margin-bottom: 20px;
 	text-align: left;
 	border: none;
 	outline: none;
@@ -154,4 +154,8 @@ th, td {
 	margin-bottom:15px;
 	margin-right: 500px;
 	overflow: hidden;
+}
+
+hr{
+	margin-top: 15px;
 }
