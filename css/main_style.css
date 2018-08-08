@@ -1,6 +1,6 @@
 body{
     /*background: #7FB3D5;  */
-    background: url('../img/green-background.jpg');
+    background: url('../img/yumeji1.jpg');
     padding-top: 40px;
     color: #424949;   /* font color */
   }
@@ -112,10 +112,10 @@ th, td {
 .collapsible{
 	background-color: #D4E6F1;
 	color: #ff3500; 
-	font-size: 30px;
+	font-size: 23px;
 	cursor: pointer;
 	padding: 20px;
-	witdh: 70%;
+	witdh: 65%;
 	margin-top: 50px;
 	margin-left: 0;
 	text-align: left;
