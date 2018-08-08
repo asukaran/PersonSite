@@ -61,6 +61,7 @@ body{
 	color: #ff3500; 
 	font-weight: 300;
 	padding-top: 15px;
+	padding-left: 15px;
 }
 
 .content-rounded-panel {
@@ -73,7 +74,6 @@ body{
 }
 
 .rounded_panel {
-	padding-left: 10px;
 	padding-bottom:10px;
 	margin-bottom:10px;
 }
