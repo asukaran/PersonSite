@@ -11,6 +11,10 @@ body{
      font-size: 16px;
   }
   
+#title{
+	font-size: 30px;
+}
+
  #header_controls {
 	bottom: 0;
 	display:inline;
