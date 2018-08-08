@@ -2,7 +2,7 @@ body{
     /*background: #7FB3D5;  */
     background: url('../img/green-background.jpg');
     padding-top: 40px;
-    color: #4D5656;   /* font color */
+    color: #424949;   /* font color */
   }
   
   html, body {
@@ -93,7 +93,7 @@ body{
 }
 
 .txt_lightgrey {
-	background-color:white;
+	background-color:#EEEEEE;
 	border-color: #ABABAB;
 	border-bottom-style: solid;
 	border-bottom-width: 0px;
