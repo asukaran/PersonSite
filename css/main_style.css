@@ -110,20 +110,21 @@ th, td {
 }
 
 .collapsible{
-	background-color: #F4F6F6;
+	background-color: #D4E6F1;
 	color: #ff3500; 
-	font-weight: 300;
+	font-size: 20px;
 	padding-top: 20px;
 	padding-left: 20px;
 	cursor: pointer;
 	padding: 15px;
-	width: 100%;
+	margin-top: 50px;
+	margin-left: 100px;
 	border: none;
 	outline: none;
 }
 
 .active, .collapsible: hover {
-	background-color: #EAEDED;
+	background-color: #AED6F1;
 }
 
 .content {
@@ -137,3 +138,14 @@ th, td {
 	overflow: hidden;
 }
 	
+.content_txt_lightgrey {
+	background-color:white;
+	border-color: #ABABAB;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-right-style: solid;
+	border-right-width: 0px;
+	margin-bottom:15px;
+	margin-right: 500px;
+	overflow: hidden;
+}
