@@ -11,10 +11,6 @@ body{
      font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
      font-size: 16px;
   }
-  
-#title{
-	font-size: 30px;
-}
 
  #header_controls {
 	bottom: 0;
@@ -22,24 +18,23 @@ body{
 	position:relative;
 }
 
-/*
-  #header_container {
-    background: #FADBD8;
-  }
-*/
-
-
-#container {
-    margin: 0 auto;
-    min-width: 1000px;
-    min-height: 100%;
-    margin-bottom: -30px;   
-    position: relative;
+#header .container {
+	font-weight: 300;
+	background: #424949
+	margin: 0 auto;
+        min-width: 1000px;
+        min-height: 100%;
+        margin-bottom: -30px;   
+        position: relative;
 }
 
+#header .h1 {
+	font-size: 25px;
+	color: #ECF0F1;
+	margin-left:10px;
+}
 
-/*
-#header ul {
+#header .container ul {
     margin-top: 4px;
     padding-top: 4px;
     margin-left: 5px;
@@ -47,13 +42,12 @@ body{
     margin-bottom: 10px;
 }
 
-#header ul,li {
+#header .container ul li {
     float: left;
     list-style-type: none;
     padding-right: 40px;
+    color: #BA4A00;
 }
-
-*/
 
 /*
 .top-rounded-panel {
