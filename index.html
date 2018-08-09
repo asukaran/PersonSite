@@ -36,7 +36,7 @@
 			  </div>  
 				
 			  <div id="myNavbar" class="navbar-collapse collapse">
-				 <ul class="nav navbar-nav">
+				 <ul class="nav navbar-nav navbar-right">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="/">CV</a></li>
 					<li><a href="publications.html">Publications</a></li>
@@ -45,7 +45,7 @@
 				</ul>
                          </div>
                	 </div>
-        </nav>
+        </nav><br/>
 	
 </header>
 
@@ -159,43 +159,46 @@
 		</section>
 
 <!---------------- Novel Project ------------------->
-		<section id="NovelProject">	
-			<button class="collapsible">Novel Project: <i> The Seven Stars Palace </i> <br/> (click to view) </button>
-			<div class="content txt_lightgrey collapse-content">
-				<p><br/><br/> I am writing a book of a detective story occurring during the last years before the collaspe of 
-				Ming Dynasty in ancient China. This story is not only about schemes, deceits, and confrontations, 
-				but is more of a portray of the civilians and lower-class officials and their struggles, conflicts, 
-				and faiths in the turbulent world in late Ming. <br/><br/>
-				The main characters: 
-				<ul>
-					<li>Su the Southern Star (the main character): A lower-class official in the Imperial guards.</li>
-					<li>You Demand on the Wind: Su's assistant. </li>
-					<li>Xu the Grace: The 5th daughter of a previleged officer. A hostage of the seven thieves. </li>
-					<li>Catch the clouds: A mysterious assassin. </li>
-					<li>The seven thieves: The remnant soldiers after the death of the rebel leader Gao Yingxiang. </li>
-				</ul>
-				Still working on it...
-				</p>
-			</div>
+		<div class="col-md-14 rightBorder">
+			<section id="NovelProject">	
+				<button class="collapsible">Novel Project: <i> The Seven Stars Palace </i> <br/> (click to view) </button>
+				<div class="content txt_lightgrey collapse-content">
+					<p><br/><br/> I am writing a book of a detective story occurring during the last years before the collaspe of 
+					Ming Dynasty in ancient China. This story is not only about schemes, deceits, and confrontations, 
+					but is more of a portray of the civilians and lower-class officials and their struggles, conflicts, 
+					and faiths in the turbulent world in late Ming. <br/><br/>
+					The main characters: 
+					<ul>
+						<li>Su the Southern Star (the main character): A lower-class official in the Imperial guards.</li>
+						<li>You Demand on the Wind: Su's assistant. </li>
+						<li>Xu the Grace: The 5th daughter of a previleged officer. A hostage of the seven thieves. </li>
+						<li>Catch the clouds: A mysterious assassin. </li>
+						<li>The seven thieves: The remnant soldiers after the death of the rebel leader Gao Yingxiang. </li>
+					</ul>
+					Still working on it...
+					</p>
+				</div>
 
-		<!-------Collapse function ------>
-		<script>
-		var coll = document.getElementsByClassName("collapsible");
-		var i;
-		for (i = 0; i < coll.length; i++) {
-		    coll[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var content = this.nextElementSibling;
-			if (content.style.display === "block") {
-			    content.style.display = "none";
-			} else {
-			    content.style.display = "block";
-			}
-		    });
-		}
-		</script>
+				<!-------Collapse function ------>
+				<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+				for (i = 0; i < coll.length; i++) {
+				    coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.display === "block") {
+					    content.style.display = "none";
+					} else {
+					    content.style.display = "block";
+					}
+				    });
+				}
+				</script>
 
-		</section>
+			</section>
+		</div>
+			
 		</div>
 	</div>
 </div>
