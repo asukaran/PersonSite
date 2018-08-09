@@ -29,15 +29,15 @@ body{
 	left:0px;top:20px;
 }
 */
-
+/*
 #header .container {
 	font-weight: 300;
 	margin: 0 auto;
         min-width: 1000px;
         min-height: 100%;
         margin-bottom: -30px; 
-        /*position: relative;  */
-}
+        position: relative; 
+}  */
 /*
 #header #title {
 	font-size: 25px;
