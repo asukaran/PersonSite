@@ -2,7 +2,7 @@ body{
     /*background: #7FB3D5;  */
     background-image: url('../img/yumeji_lemon.jpg');
     /*background-repeat: no-repeat; */
-   padding-top: -40px;  
+   padding-top: 0;  
     color: #424949;   /* font color */
   }
   
@@ -47,9 +47,8 @@ body{
 */
 
 #header ul {
-    margin-top: 0;
+    margin: -10px;
     padding-top: 0;
-    margin-left: 0; 
     padding-left: 5px;   
     background-color: #333;
     overflow: hidden;
