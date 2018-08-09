@@ -1,7 +1,7 @@
 body{
     /*background: #7FB3D5;  */
-    background-image: url('../img/yumeji1.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../img/yumeji_lemon.jpg');
+    /*background-repeat: no-repeat; */
     padding-top: 40px;
     color: #424949;   /* font color */
   }
@@ -28,10 +28,10 @@ body{
         position: relative;
 }
 
-#header .h1 {
-	font-size: 30px;
-	color: #ECF0F1;
-	margin-left:20px;
+#header #title {
+	font-size: 25px;
+	font-weight: 500;
+	margin-left: 15px;
 }
 
 #header .container ul {
@@ -114,7 +114,7 @@ th, td {
 	font-size: 23px;
 	cursor: pointer;
 	padding: 20px;
-	witdh: 70%;
+	width: 60%;
 	margin-top: 50px;
 	margin-left: 0;
 	text-align: left;
