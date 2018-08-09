@@ -20,18 +20,18 @@ body{
 
 #header .container {
 	font-weight: 300;
-	background: #424949
+	background-color: #424949
 	margin: 0 auto;
         min-width: 1000px;
         min-height: 100%;
-        margin-bottom: -30px;   
+        /*margin-bottom: -30px;   */
         position: relative;
 }
 
 #header .h1 {
-	font-size: 25px;
+	font-size: 30px;
 	color: #ECF0F1;
-	margin-left:10px;
+	margin-left:20px;
 }
 
 #header .container ul {
@@ -39,7 +39,7 @@ body{
     padding-top: 4px;
     margin-left: 5px;
     padding-left: 5px;
-    margin-bottom: 10px;
+	
 }
 
 #header .container ul li {
@@ -114,7 +114,7 @@ th, td {
 	font-size: 23px;
 	cursor: pointer;
 	padding: 20px;
-	witdh: 68%;
+	witdh: 70%;
 	margin-top: 50px;
 	margin-left: 0;
 	text-align: left;
