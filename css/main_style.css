@@ -134,7 +134,7 @@ th, td {
 	text-align: left;
 	border: none;
 	outline: none;
-	border-radius: 50%
+	border-radius: 30%
 }
 
 .active, .collapsible:hover {
@@ -154,7 +154,7 @@ th, td {
 }
 	
 .collapse-content {
-	margin-top:-80px;
+	margin-top:-50px;
 	overflow: hidden;
 }
 
