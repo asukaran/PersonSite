@@ -2,7 +2,7 @@ body{
     /*background: #7FB3D5;  */
     background-image: url('../img/yumeji_lemon.jpg');
     /*background-repeat: no-repeat; */
-    padding-top: 40px;;
+    padding-top: 0;
     color: #424949;   /* font color */
   }
   
@@ -118,7 +118,8 @@ body{
 
 */
 .top-rounded-panel h1{
-	color: #ff3500; 
+	/* color: #ff3500; */
+	color: #34495E;
 	font-weight: 300;
 	padding-top: 20px;
 	padding-left: 20px;
