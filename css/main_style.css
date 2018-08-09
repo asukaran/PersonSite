@@ -114,7 +114,18 @@ body{
     display: block;
     text-align: left;
   }
-}	
+}
+
+#container {
+	margin:0 auto; 
+	min-width: 1000px;
+	/*max-width:1000px;*/
+	min-height: 100%;
+	margin-bottom: -30px;
+	position: relative;
+}
+
+
 /*
 .top-rounded-panel {
 	padding-left:15px;
