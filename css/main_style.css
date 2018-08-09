@@ -70,11 +70,11 @@ body{
 	text-decoration: none;
 }
 
-#header li a:hover:not(.active){
+#header li a:hover:not(.title){
 	background-color: #111;
 }
 
-#header #title{
+#header .title{
 	font-size:20px;
 }
 
