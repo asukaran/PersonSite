@@ -47,11 +47,10 @@ body{
 */
 
 .topnav {  
-    margin = -8px;
+    margin = 0;
     float: left;
     background-color: #333;
-    overflow: hidden;
-    width: 150%;  
+    overflow: hidden; 
 }
 
 /*
