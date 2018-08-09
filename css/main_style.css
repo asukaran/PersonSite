@@ -198,11 +198,14 @@ hr{
 #ProgramSkills ul li{
 	background-color: #4f5760;
 	color: white;
-	line-style-type:none;
 	display:inline;   /* horizontally aligned  */
 	/* border-radius: 50% ;  */
 	padding: 10px 15px;
 	margin: 20px;
+	float: left;
 }
-	
+
+#ProgramSkills #first_skill {
+	margin-left: -25px;
+}
 
