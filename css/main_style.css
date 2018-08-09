@@ -119,11 +119,12 @@ body{
 */
 .top-rounded-panel h1{
 	/* color: #ff3500; */
-	color: #CD5C5C;
+	color: #E74C3C;
+	font-family:verdana;
 	font-weight: 300;
 	padding-top: 20px;
 	padding-left: 20px;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 
