@@ -113,13 +113,12 @@ th, td {
 	font-size: 23px;
 	cursor: pointer;
 	padding: 20px;
-	/*width: 60%;   */
 	margin-top: 50px;
 	margin-left: 0;
-	margin-right: 100px;
 	text-align: left;
 	border: none;
 	outline: none;
+	border-radius: 50%
 }
 
 .active, .collapsible:hover {
