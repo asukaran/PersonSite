@@ -151,15 +151,7 @@ th, td {
 	overflow: hidden;
 }
 	
-.content_txt_lightgrey {
-	background-color:white;
-	border-color: #ABABAB;
-	border-bottom-style: solid;
-	border-bottom-width: 0px;
-	border-right-style: solid;
-	border-right-width: 0px;
-	margin-bottom:15px;
-	/*margin-right: 500px;  */
+.collapse-content {
 	overflow: hidden;
 }
 
