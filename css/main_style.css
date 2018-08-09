@@ -194,3 +194,10 @@ th, td {
 hr{
 	margin-top: 15px;
 }
+
+#ProgramSkills ul li{
+	background-color: #222a33;
+	color: white;
+	text-align: center;
+	line-type-style:none;
+}
