@@ -70,7 +70,7 @@ body{
 	text-decoration: none;
 }
 
-#header li a:hover{
+#header li a:hover:not(.active){
 	background-color: #111;
 }
 
