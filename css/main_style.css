@@ -196,13 +196,13 @@ hr{
 	margin-top: 15px;
 }
 
-#ProgramSkills ul li{
+#ProgramSkills li{
 	background-color: #4f5760;
 	color: white;
 	display:inline;   /* horizontally aligned  */
 	/* border-radius: 50% ;  */
 	padding: 10px 15px;
-	margin: 20px;
+	margin: 10px;
 	float: left;
 }
 
