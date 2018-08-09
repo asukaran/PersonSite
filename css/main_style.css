@@ -2,7 +2,7 @@ body{
     /*background: #7FB3D5;  */
     background-image: url('../img/yumeji_lemon.jpg');
     /*background-repeat: no-repeat; */
-    margin = 0;
+    padding-top: 40px;;
     color: #424949;   /* font color */
   }
   
@@ -29,30 +29,13 @@ body{
 	left:0px;top:20px;
 }
 */
-/*
-#header .container {
-	font-weight: 300;
-	margin: 0 auto;
-        min-width: 1000px;
-        min-height: 100%;
-        margin-bottom: -30px; 
-        position: relative; 
-}  */
-/*
-#header #title {
-	font-size: 25px;
-	font-weight: 300;
-        margin-left: 10px;
-}
-*/
 
+/*
 .topnav {  
     margin = 0;
     background-color: #333;
     overflow: hidden; 
 }
-
-/*
 .topnav ul li {
     margin: 0;
     padding-top: 0;
@@ -60,17 +43,7 @@ body{
     float: left;
     list-style-type: none; 
     padding-right: 40px;  
-}   */
-
-/*
-.topnav li a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 15px 40px;
-	text-decoration: none;
-}
-*/
+}   
 
 .topnav a{
 	float: left;
@@ -114,6 +87,11 @@ body{
     display: block;
     text-align: left;
   }
+}
+*/
+
+#header #title {
+	font-size: 20px;
 }
 
 #container {
