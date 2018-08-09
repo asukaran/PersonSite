@@ -74,6 +74,10 @@ body{
 	background-color: #111;
 }
 
+.topnav .icon {
+  display: none;
+}
+
 #header .title{
 	font-size:20px;
 }
