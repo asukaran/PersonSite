@@ -30,16 +30,14 @@ body{
 #header #title {
 	font-size: 25px;
 	font-weight: 300;
-	margin-left: 10px;
+	/* margin-left: 10px; */
 }
 
 #header .container ul {
     margin-top: 0;
     padding-top: 4px;
-    margin-left: 10px;
+    /*margin-left: 10px; */
     padding-left: 5px;
-    font-size: 20px;
-	
 }
 
 #header .container ul li {
@@ -47,6 +45,10 @@ body{
     list-style-type: none;
     padding-right: 40px;
     color: #BA4A00;
+}
+
+#header .container a{
+	font-size: 20px;
 }
 
 /*
@@ -66,6 +68,7 @@ body{
 	font-weight: 300;
 	padding-top: 20px;
 	padding-left: 20px;
+	font-size: 20px;
 }
 
 .bulletcontent-rounded-panel {
@@ -99,7 +102,7 @@ body{
 	border-right-style: solid;
 	border-right-width: 0px;
 	margin-bottom:15px;
-	margin-right: 500px;
+	/* margin-right: 500px; */
 	margin-top: 50px;  
 }
 
@@ -146,7 +149,7 @@ th, td {
 	border-right-style: solid;
 	border-right-width: 0px;
 	margin-bottom:15px;
-	margin-right: 500px;
+	/*margin-right: 500px;  */
 	overflow: hidden;
 }
 
