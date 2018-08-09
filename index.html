@@ -11,15 +11,12 @@
     <title>Josie Huang's Personal Website</title>
 	
      <!-- Twitter Bootstrap CSS -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
--->	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      
-	<!-- navigation bar -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="./css/main_style.css">
+	<link rel="stylesheet" type="text/css" href="./css/main_style.css">
     
 </head>
 
@@ -27,181 +24,180 @@
 
 <!---------------- header ------------------->
 <header id="header">
-	       <nav class="navbar" role="navigation">
-		       <div class="container">
-			       <!--  <div id="title">
-				       <h1>Josie Huang</h1>
-			       </div>   -->
-				<div class="topnav" id="myTopnav">
-					<a class="title">Josie Huang </a>
-                                       	<a href="index.html">Home</a>
-					<a href="/">CV</a></li>
-					<a href="publications.html">Publications</a>
-					<a href="/">Photos</a></li>
-					<a href="http://wilsonlab.la.psu.edu">ASH Labpage</a>
-				        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    						<i class="fa fa-bars"></i>
-  					</a>
-                        	</div>
-               	 	</div>
-        	</nav>
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			 <div class="navbar-header">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+				 </button>
+				 <a class="navbar-brand" id="title"> Josie Huang </a>   
+			  </div>  
+				
+			  <div id="myNavbar" class="navbar-collapse collapse">
+				 <ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="/">CV</a></li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="/">Photos</a></li>
+					<li><a href="http://wilsonlab.la.psu.edu">ASH Labpage</a></li>
+				</ul>
+                         </div>
+               	 </div>
+        </nav>
 	
 </header>
 
 <!---------------- Introduction ------------------->	
-<section id="Intro">
-	<div class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>About Me</h1>
-		</div>
-		<div class="content-rounded-panel">
-			<p>I am a second-year PhD student in Clinical Psychology at The Penn State University, State College.
-			I am originally from China. Research-wise, I am currently working with <a href="http://psych.la.psu.edu/directory/sjw42">
-			Dr. Stephen Wilson</a> on a project that examines the influences of contextual information on restrained 
-			eaters' neural reactivity to food and non-food reward cues. Our goal is to identify the neural markers
-			that predict the motivational processes and food choices among individuals in obesogenic environment.<br/><br/>
-			In my spare time, I enjoy running, reading, and writing my novel!
-		</div>	
-	</div>
-</section>
-	
+<div class="row">
+	<div class="container">
+		<div class="col-md-9 rightBorder">
+		<section id="Intro">
+			<div class="rounded_panel txt_lightgrey">
+				<div class="top-rounded-panel grey-bg">
+					<h1>About Me</h1>
+				</div>
+				<div class="content-rounded-panel">
+					<p>I am a second-year PhD student in Clinical Psychology at The Penn State University, State College.
+					I am originally from China. Research-wise, I am currently working with <a href="http://psych.la.psu.edu/directory/sjw42">
+					Dr. Stephen Wilson</a> on a project that examines the influences of contextual information on restrained 
+					eaters' neural reactivity to food and non-food reward cues. Our goal is to identify the neural markers
+					that predict the motivational processes and food choices among individuals in obesogenic environment.<br/><br/>
+					In my spare time, I enjoy running, reading, and writing my novel!
+				</div>	
+			</div>
+		</section>
+
 <!---------------- Educational History ------------------->
-<section id="Education">
-<div class="rounded_panel txt_lightgrey">
-	<div class="top-rounded-panel grey-bg">
-        	<h1> Educational History </h1>
-        </div>
-	<div class="content-rounded-panel">
-               <div>
-                     <style>
-			   tr:nth-child(even) {
-    			   background-color: #dddddd;
-			   }
-		     </style>
-                     <table class="table" bgcolor="#EEEEEE">
-                           <thead>
-                                 <tr style="background-color: #dddddd;">
-                                       <th><a style="cursor: pointer;">Degree</a></th>
-                                       <th><a style="cursor: pointer;">Year</a></th>
-                                       <th><a style="cursor: pointer;">University</a></th>
-                                       <th><a tyle="cursor: pointer;">Research</a></th>
-                                 </tr>
-                           </thead>
-                           <tbody>
-					<tr>
-                                             	<td>PhD candidate in Clinical Psychology</td>
-                                             	<td>2017-present</td>
-                                             	<td>The Penn State University</td>
-                                             	<td>Contextual influences on reward processing in addiction. </td>
-					</tr>
-					<tr>
-						<td>M.A. (Psychology)</td>
-						<td>2014-2017</td>
-						<td>San Diego State University</td>
-						<td>Neural correlates of cognitive and affective functions in binge drinkers.</td>
-				        </tr>
-				        <tr>
-						<td>B.S. (Psychology)</td>
-						<td>2008-2012</td>
-						<td>Peking University</td>
-						<td>The modulating effects of group membership on empathic neural responses.</td>
-				        </tr>
-					
-                          </tbody>
-                    </table>
-             </div>
-             <br>                      
-      </div>
-</div>
-</section>    
+		<section id="Education">
+		<div class="rounded_panel txt_lightgrey">
+			<div class="top-rounded-panel grey-bg">
+				<h1> Educational History </h1>
+			</div>
+			<div class="content-rounded-panel">
+			       <div>
+				     <style>
+					   tr:nth-child(even) {
+					   background-color: #dddddd;
+					   }
+				     </style>
+				     <table class="table" bgcolor="#EEEEEE">
+					   <thead>
+						 <tr style="background-color: #dddddd;">
+						       <th><a style="cursor: pointer;">Degree</a></th>
+						       <th><a style="cursor: pointer;">Year</a></th>
+						       <th><a style="cursor: pointer;">University</a></th>
+						       <th><a tyle="cursor: pointer;">Research</a></th>
+						 </tr>
+					   </thead>
+					   <tbody>
+							<tr>
+								<td>PhD candidate in Clinical Psychology</td>
+								<td>2017-present</td>
+								<td>The Penn State University</td>
+								<td>Contextual influences on reward processing in addiction. </td>
+							</tr>
+							<tr>
+								<td>M.A. (Psychology)</td>
+								<td>2014-2017</td>
+								<td>San Diego State University</td>
+								<td>Neural correlates of cognitive and affective functions in binge drinkers.</td>
+							</tr>
+							<tr>
+								<td>B.S. (Psychology)</td>
+								<td>2008-2012</td>
+								<td>Peking University</td>
+								<td>The modulating effects of group membership on empathic neural responses.</td>
+							</tr>
+
+					  </tbody>
+				    </table>
+			     </div>
+			     <br>                      
+		      </div>
+		</div>
+		</section>    
 
 
 <!---------------- Programming Skills ------------------->	
-<section id="ProgramSkills">
-	<div class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>Programming Skills/Software</h1>
-		</div>
-		<div class="content-rounded-panel">
-			<ul>
-				<li type="round" style="color:#4D5656"><span style="color:#4D5656">Matlab</span></li>
-				<li>R</li>
-				<li>STATA</li>
-				<li>HTML</li>
-				<li>Presentation</li>
-				<li>E-Prime</li>
-				<li>SPSS</li>
-			</ul>
-		</div>	
-	</div>
-</section>
+		<section id="ProgramSkills">
+			<div class="rounded_panel txt_lightgrey">
+				<div class="top-rounded-panel grey-bg">
+					<h1>Programming Skills/Software</h1>
+				</div>
+				<div class="content-rounded-panel">
+					<ul>
+						<li type="round" style="color:#4D5656"><span style="color:#4D5656">Matlab</span></li>
+						<li>R</li>
+						<li>STATA</li>
+						<li>HTML</li>
+						<li>Presentation</li>
+						<li>E-Prime</li>
+						<li>SPSS</li>
+					</ul>
+				</div>	
+			</div>
+		</section>
 
-	
+
 <!---------------- Neuroscience Skills ------------------->
-<section id="NeuroSkills">
-	<div class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>Neuroscience Tools</h1>
-		</div>
-		<div class="content-rounded-panel">
-			<ul>
-				<li><a href="http://www.fieldtriptoolbox.org/">Fieldtrip (EEG & MEG) </a></li>
-			        <li><a href="https://fsl.fmrib.ox.ac.uk/fsl/fslwiki">FSL (MRI) </a></li>
-				<li><a href="http://fmriprep.readthedocs.io/en/latest/usage.html">FMRIPREP (fMRI) </a></li>
-			</ul>
-		</div>	
-	</div>
-</section>
+		<section id="NeuroSkills">
+			<div class="rounded_panel txt_lightgrey">
+				<div class="top-rounded-panel grey-bg">
+					<h1>Neuroscience Tools</h1>
+				</div>
+				<div class="content-rounded-panel">
+					<ul>
+						<li><a href="http://www.fieldtriptoolbox.org/">Fieldtrip (EEG & MEG) </a></li>
+						<li><a href="https://fsl.fmrib.ox.ac.uk/fsl/fslwiki">FSL (MRI) </a></li>
+						<li><a href="http://fmriprep.readthedocs.io/en/latest/usage.html">FMRIPREP (fMRI) </a></li>
+					</ul>
+				</div>	
+			</div>
+		</section>
 
 <!---------------- Novel Project ------------------->
-<section id="NovelProject">	
-	<button class="collapsible">Novel Project: <i> The Seven Stars Palace </i> <br/> (click to view) </button>
-	<div class="content txt_lightgrey collapse-content">
-		<p><br/><br/> I am writing a book of a detective story occurring during the last years before the collaspe of 
-		Ming Dynasty in ancient China. This story is not only about schemes, deceits, and confrontations, 
-		but is more of a portray of the civilians and lower-class officials and their struggles, conflicts, 
-		and faiths in the turbulent world in late Ming. <br/><br/>
-		The main characters: 
-		<ul>
-			<li>Su the Southern Star (the main character): A lower-class official in the Imperial guards.</li>
-			<li>You Demand on the Wind: Su's assistant. </li>
-			<li>Xu the Grace: The 5th daughter of a previleged officer. A hostage of the seven thieves. </li>
-			<li>Catch the clouds: A mysterious assassin. </li>
-			<li>The seven thieves: The remnant soldiers after the death of the rebel leader Gao Yingxiang. </li>
-		</ul>
-		Still working on it...
-		</p>
+		<section id="NovelProject">	
+			<button class="collapsible">Novel Project: <i> The Seven Stars Palace </i> <br/> (click to view) </button>
+			<div class="content txt_lightgrey collapse-content">
+				<p><br/><br/> I am writing a book of a detective story occurring during the last years before the collaspe of 
+				Ming Dynasty in ancient China. This story is not only about schemes, deceits, and confrontations, 
+				but is more of a portray of the civilians and lower-class officials and their struggles, conflicts, 
+				and faiths in the turbulent world in late Ming. <br/><br/>
+				The main characters: 
+				<ul>
+					<li>Su the Southern Star (the main character): A lower-class official in the Imperial guards.</li>
+					<li>You Demand on the Wind: Su's assistant. </li>
+					<li>Xu the Grace: The 5th daughter of a previleged officer. A hostage of the seven thieves. </li>
+					<li>Catch the clouds: A mysterious assassin. </li>
+					<li>The seven thieves: The remnant soldiers after the death of the rebel leader Gao Yingxiang. </li>
+				</ul>
+				Still working on it...
+				</p>
+			</div>
+
+		<!-------Collapse function ------>
+		<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		for (i = 0; i < coll.length; i++) {
+		    coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+			    content.style.display = "none";
+			} else {
+			    content.style.display = "block";
+			}
+		    });
+		}
+		</script>
+
+		</section>
+		</div>
 	</div>
-	
-<!-------Collapse function ------>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-}
-</script>
-	
-</section>
+</div>
 	
 <!---------------- footer ------------------->
 <footer>
