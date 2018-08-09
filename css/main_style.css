@@ -48,7 +48,6 @@ body{
 
 .topnav {  
     margin = 0;
-    float: left;
     background-color: #333;
     overflow: hidden; 
 }
