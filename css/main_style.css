@@ -68,11 +68,14 @@ body{
 	text-align: center;
 	padding: 20px 40px;
 	text-decoration: none;
-	font-size: 20px;
 }
 
 #header li a:hover{
 	background-color: #111;
+}
+
+#header #title{
+	font-size:20px;
 }
 
 /*
