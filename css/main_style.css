@@ -159,6 +159,10 @@ th, td {
 	padding: 10px;
 }
 
+.table {
+	word-wrap: break-word;
+}
+
 .collapsible{
 	background-color: #D4E6F1;
 	color: #ff3500; 
